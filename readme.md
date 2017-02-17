@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://travis-ci.org/bbux/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/bbux/cpp-boilerplate)
+[![Coverage Status](https://coveralls.io/repos/github/bbux/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/bbux/cpp-boilerplate?branch=master)
 ---
 
 ## Overview
@@ -14,6 +14,6 @@ Simple starter C++ project with:
 
 - Checkout the repo (and submodules)
 ```
-$ git clone --recursive https://github.com/dpiet/cpp-boilerplate.git
+$ git clone --recursive https://github.com/bbux/cpp-boilerplate.git
 ```
 
