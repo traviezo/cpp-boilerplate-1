@@ -14,6 +14,6 @@ Simple starter C++ project with:
 
 - Checkout the repo (and submodules)
 ```
-$ git clone --recursive https://github.com/bbux/cpp-boilerplate.git
+$ git clone --recursive https://github.com/traviezo/cpp-boilerplate-1.git
 ```
 
