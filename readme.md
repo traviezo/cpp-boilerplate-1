@@ -17,3 +17,5 @@ Simple starter C++ project with:
 $ git clone --recursive https://github.com/traviezo/cpp-boilerplate-1.git
 ```
 
+### TODO:
+  - Add a test that exercises all gains in order to verify accuracy of result. 
