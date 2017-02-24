@@ -1,6 +1,6 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/bbux/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/bbux/cpp-boilerplate)
-[![Coverage Status](https://coveralls.io/repos/github/bbux/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/bbux/cpp-boilerplate?branch=master)
+[![Build Status](https://travis-ci.org/traviezo/cpp-boilerplate-1.svg?branch=master)](https://travis-ci.org/traviezo/cpp-boilerplate-1)
+[![Coverage Status](https://coveralls.io/repos/github/traviezo/cpp-boilerplate-1/badge.svg?branch=master)](https://coveralls.io/github/traviezo/cpp-boilerplate-1?branch=master)
 ---
 
 ## Overview
