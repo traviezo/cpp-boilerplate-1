@@ -1,5 +1,6 @@
 #include <stdexcept>
 #include "PIDController.h"
+#include <exception>
 /**
  * PIDController.cpp
  *
@@ -9,13 +10,20 @@
  * Proportional Derivative Controller
  *
  */
-PIDController::PIDController(double Kp, double Ki, double Kd) {
+PIDController::PIDController( double Kp,  double Ki,  double Kd) {
+	if (Kp < 0 || Ki < 0 || Kd < 0)
+		throw std::domain_error("Negative arguments are not allowed");
+
   _Kp = Kp;
   _Ki = Ki;
   _Kd = Kd;
 }
 
 double PIDController::compute(double currentVelocity, double targetSetPoint) {
-  return 0.0001;
+  double error = targetSetPoint - currentVelocity;
+  double integral = error*1.0;
+  double derivative = error/1.0;
+  double newVelocity = _Kp*error + _Ki*integral + _Kd*derivative; 
+  return newVelocity;
 }
 
